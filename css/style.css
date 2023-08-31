@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 16px;
+    font-size: 22px;
+    color: #1F314F;
+}
+
+p {
+    margin: 0px 32px 40px 32px;
+    font-size: 15px;
+    color: #7D889E;
+}
+
+.qrcode {
+    width: 288px;
+    border-radius: 20px;
+    margin: 16px;
+}
+
+.card {
+    background-color: #FFF;
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+}
+
+p, h2 {
+    text-align: center;
+    background-color: #FFF;
+}
+
+.attribution { 
+    margin-top: 5px;
+    font-size: 12px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
